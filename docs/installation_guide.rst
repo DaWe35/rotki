@@ -854,5 +854,8 @@ Docker
 
 To build Docker image from source using ``Dockerfile``::
 
+.. NOTE::
+    Make sure the ``docker-buildx`` component is installed (it's included in DOcker Desktop and Docker Engine)
+
     docker build -t rotki .
 
